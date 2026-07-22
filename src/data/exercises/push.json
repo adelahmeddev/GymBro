@@ -1,0 +1,112 @@
+[
+  {
+    "id": "barbell-bench-press",
+    "nameKey": "exercises.barbellBenchPress.name",
+    "gifPath": "/exercises/barbell-bench-press.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/barbell-bench-press.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/barbell-bench-press.jpg",
+    "primaryMuscleKey": "muscles.chest",
+    "secondaryMusclesKey": ["muscles.shoulders", "muscles.triceps"],
+    "difficulty": "intermediate",
+    "equipment": ["equipment.barbell", "equipment.bench"],
+    "sets": 3,
+    "reps": "8-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.barbellBenchPress.setup.0","technique.barbellBenchPress.setup.1","technique.barbellBenchPress.setup.2","technique.barbellBenchPress.setup.3"],
+      "execution": ["technique.barbellBenchPress.execution.0","technique.barbellBenchPress.execution.1","technique.barbellBenchPress.execution.2","technique.barbellBenchPress.execution.3"],
+      "breathing": ["technique.barbellBenchPress.breathing.0","technique.barbellBenchPress.breathing.1"],
+      "rangeOfMotion": ["technique.barbellBenchPress.rom.0","technique.barbellBenchPress.rom.1"]
+    },
+    "commonMistakes": ["technique.barbellBenchPress.mistakes.0","technique.barbellBenchPress.mistakes.1","technique.barbellBenchPress.mistakes.2"],
+    "coachTips": ["technique.barbellBenchPress.tips.0","technique.barbellBenchPress.tips.1"]
+  },
+  {
+    "id": "overhead-press",
+    "nameKey": "exercises.overheadPress.name",
+    "gifPath": "/exercises/overhead-press.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/military-press.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/military-press.jpg",
+    "primaryMuscleKey": "muscles.shoulders",
+    "secondaryMusclesKey": ["muscles.triceps", "muscles.chest"],
+    "difficulty": "intermediate",
+    "equipment": ["equipment.barbell"],
+    "sets": 3,
+    "reps": "8-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.overheadPress.setup.0","technique.overheadPress.setup.1","technique.overheadPress.setup.2"],
+      "execution": ["technique.overheadPress.execution.0","technique.overheadPress.execution.1","technique.overheadPress.execution.2"],
+      "breathing": ["technique.overheadPress.breathing.0","technique.overheadPress.breathing.1"],
+      "rangeOfMotion": ["technique.overheadPress.rom.0","technique.overheadPress.rom.1"]
+    },
+    "commonMistakes": ["technique.overheadPress.mistakes.0","technique.overheadPress.mistakes.1"],
+    "coachTips": ["technique.overheadPress.tips.0","technique.overheadPress.tips.1"]
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "nameKey": "exercises.inclineDumbbellPress.name",
+    "gifPath": "/exercises/incline-dumbbell-press.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-incline-bench-press.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-incline-bench-press.jpg",
+    "primaryMuscleKey": "muscles.chest",
+    "secondaryMusclesKey": ["muscles.shoulders", "muscles.triceps"],
+    "difficulty": "intermediate",
+    "equipment": ["equipment.dumbbells", "equipment.bench"],
+    "sets": 3,
+    "reps": "10-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.inclineDumbbellPress.setup.0","technique.inclineDumbbellPress.setup.1"],
+      "execution": ["technique.inclineDumbbellPress.execution.0","technique.inclineDumbbellPress.execution.1","technique.inclineDumbbellPress.execution.2"],
+      "breathing": ["technique.inclineDumbbellPress.breathing.0","technique.inclineDumbbellPress.breathing.1"],
+      "rangeOfMotion": ["technique.inclineDumbbellPress.rom.0","technique.inclineDumbbellPress.rom.1"]
+    },
+    "commonMistakes": ["technique.inclineDumbbellPress.mistakes.0","technique.inclineDumbbellPress.mistakes.1"],
+    "coachTips": ["technique.inclineDumbbellPress.tips.0"]
+  },
+  {
+    "id": "dumbbell-lateral-raise",
+    "nameKey": "exercises.lateralRaise.name",
+    "gifPath": "/exercises/dumbbell-lateral-raise.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-lateral-raise.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-lateral-raise.jpg",
+    "primaryMuscleKey": "muscles.shoulders",
+    "secondaryMusclesKey": ["muscles.traps"],
+    "difficulty": "beginner",
+    "equipment": ["equipment.dumbbells"],
+    "sets": 3,
+    "reps": "12-15",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.lateralRaise.setup.0","technique.lateralRaise.setup.1"],
+      "execution": ["technique.lateralRaise.execution.0","technique.lateralRaise.execution.1","technique.lateralRaise.execution.2"],
+      "breathing": ["technique.lateralRaise.breathing.0","technique.lateralRaise.breathing.1"],
+      "rangeOfMotion": ["technique.lateralRaise.rom.0","technique.lateralRaise.rom.1"]
+    },
+    "commonMistakes": ["technique.lateralRaise.mistakes.0","technique.lateralRaise.mistakes.1"],
+    "coachTips": ["technique.lateralRaise.tips.0","technique.lateralRaise.tips.1"]
+  },
+  {
+    "id": "triceps-pushdown",
+    "nameKey": "exercises.tricepsPushdown.name",
+    "gifPath": "/exercises/triceps-pushdown.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/cable-triceps-pushdown.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/cable-triceps-pushdown.jpg",
+    "primaryMuscleKey": "muscles.triceps",
+    "secondaryMusclesKey": [],
+    "difficulty": "beginner",
+    "equipment": ["equipment.cable", "equipment.vbar"],
+    "sets": 3,
+    "reps": "12-15",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.tricepsPushdown.setup.0","technique.tricepsPushdown.setup.1"],
+      "execution": ["technique.tricepsPushdown.execution.0","technique.tricepsPushdown.execution.1","technique.tricepsPushdown.execution.2"],
+      "breathing": ["technique.tricepsPushdown.breathing.0","technique.tricepsPushdown.breathing.1"],
+      "rangeOfMotion": ["technique.tricepsPushdown.rom.0","technique.tricepsPushdown.rom.1"]
+    },
+    "commonMistakes": ["technique.tricepsPushdown.mistakes.0","technique.tricepsPushdown.mistakes.1"],
+    "coachTips": ["technique.tricepsPushdown.tips.0"]
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "deadlift",
+    "nameKey": "exercises.deadlift.name",
+    "gifPath": "/exercises/deadlift.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-deadlift.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-deadlift.jpg",
+    "primaryMuscleKey": "muscles.back",
+    "secondaryMusclesKey": ["muscles.hamstrings", "muscles.glutes", "muscles.core"],
+    "difficulty": "advanced",
+    "equipment": ["equipment.barbell"],
+    "sets": 3,
+    "reps": "5",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.deadlift.setup.0","technique.deadlift.setup.1","technique.deadlift.setup.2","technique.deadlift.setup.3"],
+      "execution": ["technique.deadlift.execution.0","technique.deadlift.execution.1","technique.deadlift.execution.2","technique.deadlift.execution.3"],
+      "breathing": ["technique.deadlift.breathing.0","technique.deadlift.breathing.1"],
+      "rangeOfMotion": ["technique.deadlift.rom.0","technique.deadlift.rom.1"]
+    },
+    "commonMistakes": ["technique.deadlift.mistakes.0","technique.deadlift.mistakes.1","technique.deadlift.mistakes.2"],
+    "coachTips": ["technique.deadlift.tips.0","technique.deadlift.tips.1","technique.deadlift.tips.2"]
+  },
+  {
+    "id": "barbell-row",
+    "nameKey": "exercises.barbellRow.name",
+    "gifPath": "/exercises/barbell-row.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/barbell-underhand-bent-over-row.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/barbell-underhand-bent-over-row.jpg",
+    "primaryMuscleKey": "muscles.back",
+    "secondaryMusclesKey": ["muscles.biceps", "muscles.core"],
+    "difficulty": "intermediate",
+    "equipment": ["equipment.barbell"],
+    "sets": 3,
+    "reps": "8-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.barbellRow.setup.0","technique.barbellRow.setup.1","technique.barbellRow.setup.2"],
+      "execution": ["technique.barbellRow.execution.0","technique.barbellRow.execution.1","technique.barbellRow.execution.2"],
+      "breathing": ["technique.barbellRow.breathing.0","technique.barbellRow.breathing.1"],
+      "rangeOfMotion": ["technique.barbellRow.rom.0","technique.barbellRow.rom.1"]
+    },
+    "commonMistakes": ["technique.barbellRow.mistakes.0","technique.barbellRow.mistakes.1"],
+    "coachTips": ["technique.barbellRow.tips.0","technique.barbellRow.tips.1"]
+  },
+  {
+    "id": "pull-up",
+    "nameKey": "exercises.pullUp.name",
+    "gifPath": "/exercises/pull-up.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/pull-up-wide-front-grip.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/pull-up-wide-front-grip.jpg",
+    "primaryMuscleKey": "muscles.back",
+    "secondaryMusclesKey": ["muscles.biceps", "muscles.core"],
+    "difficulty": "intermediate",
+    "equipment": ["equipment.pullUpBar"],
+    "sets": 3,
+    "reps": "8-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.pullUp.setup.0","technique.pullUp.setup.1"],
+      "execution": ["technique.pullUp.execution.0","technique.pullUp.execution.1","technique.pullUp.execution.2"],
+      "breathing": ["technique.pullUp.breathing.0","technique.pullUp.breathing.1"],
+      "rangeOfMotion": ["technique.pullUp.rom.0","technique.pullUp.rom.1"]
+    },
+    "commonMistakes": ["technique.pullUp.mistakes.0","technique.pullUp.mistakes.1"],
+    "coachTips": ["technique.pullUp.tips.0","technique.pullUp.tips.1"]
+  },
+  {
+    "id": "dumbbell-curl",
+    "nameKey": "exercises.dumbbellCurl.name",
+    "gifPath": "/exercises/dumbbell-curl.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-biceps-curl.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-biceps-curl.jpg",
+    "primaryMuscleKey": "muscles.biceps",
+    "secondaryMusclesKey": [],
+    "difficulty": "beginner",
+    "equipment": ["equipment.dumbbells"],
+    "sets": 3,
+    "reps": "12-15",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.dumbbellCurl.setup.0","technique.dumbbellCurl.setup.1"],
+      "execution": ["technique.dumbbellCurl.execution.0","technique.dumbbellCurl.execution.1","technique.dumbbellCurl.execution.2"],
+      "breathing": ["technique.dumbbellCurl.breathing.0","technique.dumbbellCurl.breathing.1"],
+      "rangeOfMotion": ["technique.dumbbellCurl.rom.0","technique.dumbbellCurl.rom.1"]
+    },
+    "commonMistakes": ["technique.dumbbellCurl.mistakes.0","technique.dumbbellCurl.mistakes.1"],
+    "coachTips": ["technique.dumbbellCurl.tips.0"]
+  }
+]

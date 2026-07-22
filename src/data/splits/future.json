@@ -1,0 +1,34 @@
+[
+  {
+    "id": "arnold",
+    "nameKey": "splits.arnold.name",
+    "descriptionKey": "splits.arnold.description",
+    "enabled": false,
+    "days": [],
+    "icon": "🏋️"
+  },
+  {
+    "id": "upper-lower",
+    "nameKey": "splits.upperLower.name",
+    "descriptionKey": "splits.upperLower.description",
+    "enabled": false,
+    "days": [],
+    "icon": "⚡"
+  },
+  {
+    "id": "bro-split",
+    "nameKey": "splits.broSplit.name",
+    "descriptionKey": "splits.broSplit.description",
+    "enabled": false,
+    "days": [],
+    "icon": "🔥"
+  },
+  {
+    "id": "full-body",
+    "nameKey": "splits.fullBody.name",
+    "descriptionKey": "splits.fullBody.description",
+    "enabled": false,
+    "days": [],
+    "icon": "💯"
+  }
+]

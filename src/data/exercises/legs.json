@@ -1,0 +1,112 @@
+[
+  {
+    "id": "barbell-squat",
+    "nameKey": "exercises.barbellSquat.name",
+    "gifPath": "/exercises/barbell-squat.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/classic-barbell-squat.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/classic-barbell-squat.jpg",
+    "primaryMuscleKey": "muscles.quads",
+    "secondaryMusclesKey": ["muscles.glutes", "muscles.core", "muscles.hamstrings"],
+    "difficulty": "advanced",
+    "equipment": ["equipment.barbell", "equipment.squatRack"],
+    "sets": 3,
+    "reps": "8-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.barbellSquat.setup.0","technique.barbellSquat.setup.1","technique.barbellSquat.setup.2","technique.barbellSquat.setup.3"],
+      "execution": ["technique.barbellSquat.execution.0","technique.barbellSquat.execution.1","technique.barbellSquat.execution.2","technique.barbellSquat.execution.3"],
+      "breathing": ["technique.barbellSquat.breathing.0","technique.barbellSquat.breathing.1"],
+      "rangeOfMotion": ["technique.barbellSquat.rom.0","technique.barbellSquat.rom.1"]
+    },
+    "commonMistakes": ["technique.barbellSquat.mistakes.0","technique.barbellSquat.mistakes.1","technique.barbellSquat.mistakes.2"],
+    "coachTips": ["technique.barbellSquat.tips.0","technique.barbellSquat.tips.1"]
+  },
+  {
+    "id": "romanian-deadlift",
+    "nameKey": "exercises.romanianDeadlift.name",
+    "gifPath": "/exercises/romanian-deadlift.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/barbell-straight-leg-deadlift.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/barbell-straight-leg-deadlift.jpg",
+    "primaryMuscleKey": "muscles.hamstrings",
+    "secondaryMusclesKey": ["muscles.glutes", "muscles.back"],
+    "difficulty": "intermediate",
+    "equipment": ["equipment.barbell"],
+    "sets": 3,
+    "reps": "10-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.romanianDeadlift.setup.0","technique.romanianDeadlift.setup.1","technique.romanianDeadlift.setup.2"],
+      "execution": ["technique.romanianDeadlift.execution.0","technique.romanianDeadlift.execution.1","technique.romanianDeadlift.execution.2"],
+      "breathing": ["technique.romanianDeadlift.breathing.0","technique.romanianDeadlift.breathing.1"],
+      "rangeOfMotion": ["technique.romanianDeadlift.rom.0","technique.romanianDeadlift.rom.1"]
+    },
+    "commonMistakes": ["technique.romanianDeadlift.mistakes.0","technique.romanianDeadlift.mistakes.1"],
+    "coachTips": ["technique.romanianDeadlift.tips.0","technique.romanianDeadlift.tips.1"]
+  },
+  {
+    "id": "leg-press",
+    "nameKey": "exercises.legPress.name",
+    "gifPath": "/exercises/leg-press.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/close-feet-leg-press.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/close-feet-leg-press.jpg",
+    "primaryMuscleKey": "muscles.quads",
+    "secondaryMusclesKey": ["muscles.glutes", "muscles.hamstrings"],
+    "difficulty": "beginner",
+    "equipment": ["equipment.legPress"],
+    "sets": 3,
+    "reps": "10-15",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.legPress.setup.0","technique.legPress.setup.1","technique.legPress.setup.2"],
+      "execution": ["technique.legPress.execution.0","technique.legPress.execution.1","technique.legPress.execution.2"],
+      "breathing": ["technique.legPress.breathing.0","technique.legPress.breathing.1"],
+      "rangeOfMotion": ["technique.legPress.rom.0","technique.legPress.rom.1"]
+    },
+    "commonMistakes": ["technique.legPress.mistakes.0","technique.legPress.mistakes.1"],
+    "coachTips": ["technique.legPress.tips.0","technique.legPress.tips.1"]
+  },
+  {
+    "id": "dumbbell-lunges",
+    "nameKey": "exercises.dumbbellLunges.name",
+    "gifPath": "/exercises/dumbbell-lunges.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-lunge.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-lunge.jpg",
+    "primaryMuscleKey": "muscles.quads",
+    "secondaryMusclesKey": ["muscles.glutes", "muscles.hamstrings", "muscles.core"],
+    "difficulty": "intermediate",
+    "equipment": ["equipment.dumbbells"],
+    "sets": 3,
+    "reps": "10-12 each leg",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.dumbbellLunges.setup.0","technique.dumbbellLunges.setup.1"],
+      "execution": ["technique.dumbbellLunges.execution.0","technique.dumbbellLunges.execution.1","technique.dumbbellLunges.execution.2"],
+      "breathing": ["technique.dumbbellLunges.breathing.0","technique.dumbbellLunges.breathing.1"],
+      "rangeOfMotion": ["technique.dumbbellLunges.rom.0","technique.dumbbellLunges.rom.1"]
+    },
+    "commonMistakes": ["technique.dumbbellLunges.mistakes.0","technique.dumbbellLunges.mistakes.1"],
+    "coachTips": ["technique.dumbbellLunges.tips.0","technique.dumbbellLunges.tips.1"]
+  },
+  {
+    "id": "calf-raises",
+    "nameKey": "exercises.calfRaises.name",
+    "gifPath": "/exercises/calf-raises.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-standing-calf-raise.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-standing-calf-raise.jpg",
+    "primaryMuscleKey": "muscles.calves",
+    "secondaryMusclesKey": [],
+    "difficulty": "beginner",
+    "equipment": ["equipment.dumbbells"],
+    "sets": 3,
+    "reps": "15-20",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.calfRaises.setup.0","technique.calfRaises.setup.1"],
+      "execution": ["technique.calfRaises.execution.0","technique.calfRaises.execution.1","technique.calfRaises.execution.2"],
+      "breathing": ["technique.calfRaises.breathing.0","technique.calfRaises.breathing.1"],
+      "rangeOfMotion": ["technique.calfRaises.rom.0","technique.calfRaises.rom.1"]
+    },
+    "commonMistakes": ["technique.calfRaises.mistakes.0","technique.calfRaises.mistakes.1"],
+    "coachTips": ["technique.calfRaises.tips.0","technique.calfRaises.tips.1"]
+  }
+]

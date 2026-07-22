@@ -1,0 +1,8 @@
+{
+  "id": "ppl",
+  "nameKey": "splits.ppl.name",
+  "descriptionKey": "splits.ppl.description",
+  "enabled": true,
+  "days": ["ppl/push", "ppl/pull", "ppl/legs"],
+  "icon": "💪"
+}
