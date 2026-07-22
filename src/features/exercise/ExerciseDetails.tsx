@@ -50,19 +50,13 @@ export function ExerciseDetails() {
 
   return (
     <PageContainer title={t(exercise.nameKey)} showBack>
-      {/* Exercise GIF */}
+      {/* Exercise Media */}
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         className="w-full aspect-video rounded-2xl bg-surface-tertiary mb-6 overflow-hidden"
       >
-        {exercise.gifPath ? (
-          <img
-            src={exercise.gifPath}
-            alt={t(exercise.nameKey)}
-            className="w-full h-full object-cover"
-          />
-        ) : exercise.videoUrl ? (
+        {exercise.videoUrl ? (
           <video
             src={exercise.videoUrl}
             poster={exercise.posterUrl}
@@ -71,6 +65,12 @@ export function ExerciseDetails() {
           >
             {t('common.error')}
           </video>
+        ) : exercise.gifPath ? (
+          <img
+            src={exercise.gifPath}
+            alt={t(exercise.nameKey)}
+            className="w-full h-full object-cover"
+          />
         ) : (
           <div className="w-full h-full flex items-center justify-center">
             <div className="text-center">
