@@ -1,0 +1,11 @@
+/*
+  X-Content-Type-Options: nosniff
+
+/exercises/*
+  Content-Type: image/gif
+
+/icons/*
+  Content-Type: image/png
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
