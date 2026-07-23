@@ -1,7 +1,7 @@
 [
   {
-    "id": "barbell-bench-press",
-    "nameKey": "exercises.barbellBenchPress.name",
+    "id": "bench-press",
+    "nameKey": "exercises.benchPress.name",
     "gifPath": "/exercises/barbell-bench-press.gif",
     "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/barbell-bench-press.mp4",
     "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/barbell-bench-press.jpg",
@@ -20,28 +20,6 @@
     },
     "commonMistakes": ["technique.barbellBenchPress.mistakes.0","technique.barbellBenchPress.mistakes.1","technique.barbellBenchPress.mistakes.2"],
     "coachTips": ["technique.barbellBenchPress.tips.0","technique.barbellBenchPress.tips.1"]
-  },
-  {
-    "id": "overhead-press",
-    "nameKey": "exercises.overheadPress.name",
-    "gifPath": "/exercises/overhead-press.gif",
-    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/military-press.mp4",
-    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/military-press.jpg",
-    "primaryMuscleKey": "muscles.shoulders",
-    "secondaryMusclesKey": ["muscles.triceps", "muscles.chest"],
-    "difficulty": "intermediate",
-    "equipment": ["equipment.barbell"],
-    "sets": 3,
-    "reps": "8-12",
-    "restTime": "120s",
-    "technique": {
-      "setup": ["technique.overheadPress.setup.0","technique.overheadPress.setup.1","technique.overheadPress.setup.2"],
-      "execution": ["technique.overheadPress.execution.0","technique.overheadPress.execution.1","technique.overheadPress.execution.2"],
-      "breathing": ["technique.overheadPress.breathing.0","technique.overheadPress.breathing.1"],
-      "rangeOfMotion": ["technique.overheadPress.rom.0","technique.overheadPress.rom.1"]
-    },
-    "commonMistakes": ["technique.overheadPress.mistakes.0","technique.overheadPress.mistakes.1"],
-    "coachTips": ["technique.overheadPress.tips.0","technique.overheadPress.tips.1"]
   },
   {
     "id": "incline-dumbbell-press",
@@ -66,7 +44,29 @@
     "coachTips": ["technique.inclineDumbbellPress.tips.0"]
   },
   {
-    "id": "dumbbell-lateral-raise",
+    "id": "shoulder-press",
+    "nameKey": "exercises.shoulderPress.name",
+    "gifPath": "/exercises/overhead-press.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/military-press.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/military-press.jpg",
+    "primaryMuscleKey": "muscles.shoulders",
+    "secondaryMusclesKey": ["muscles.triceps", "muscles.chest"],
+    "difficulty": "intermediate",
+    "equipment": ["equipment.barbell"],
+    "sets": 3,
+    "reps": "8-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.overheadPress.setup.0","technique.overheadPress.setup.1","technique.overheadPress.setup.2"],
+      "execution": ["technique.overheadPress.execution.0","technique.overheadPress.execution.1","technique.overheadPress.execution.2"],
+      "breathing": ["technique.overheadPress.breathing.0","technique.overheadPress.breathing.1"],
+      "rangeOfMotion": ["technique.overheadPress.rom.0","technique.overheadPress.rom.1"]
+    },
+    "commonMistakes": ["technique.overheadPress.mistakes.0","technique.overheadPress.mistakes.1"],
+    "coachTips": ["technique.overheadPress.tips.0","technique.overheadPress.tips.1"]
+  },
+  {
+    "id": "lateral-raise",
     "nameKey": "exercises.lateralRaise.name",
     "gifPath": "/exercises/dumbbell-lateral-raise.gif",
     "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-lateral-raise.mp4",

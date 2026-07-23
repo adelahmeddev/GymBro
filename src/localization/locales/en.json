@@ -141,35 +141,38 @@
     "seconds": "sec"
   },
   "exercises": {
-    "barbellBenchPress": {
-      "name": "Barbell Bench Press"
-    },
-    "overheadPress": {
-      "name": "Overhead Press"
+    "benchPress": {
+      "name": "Bench Press"
     },
     "inclineDumbbellPress": {
       "name": "Incline Dumbbell Press"
     },
+    "shoulderPress": {
+      "name": "Shoulder Press"
+    },
     "lateralRaise": {
-      "name": "Dumbbell Lateral Raise"
+      "name": "Lateral Raise"
     },
     "tricepsPushdown": {
       "name": "Triceps Pushdown"
     },
-    "deadlift": {
-      "name": "Deadlift"
+    "latPulldown": {
+      "name": "Lat Pulldown"
     },
     "barbellRow": {
       "name": "Barbell Row"
     },
-    "pullUp": {
-      "name": "Pull Up"
+    "rearDeltFly": {
+      "name": "Rear Delt Fly"
     },
-    "dumbbellCurl": {
-      "name": "Dumbbell Curl"
+    "barbellCurl": {
+      "name": "Barbell Curl"
     },
-    "barbellSquat": {
-      "name": "Barbell Squat"
+    "hammerCurl": {
+      "name": "Hammer Curl"
+    },
+    "squat": {
+      "name": "Squat"
     },
     "romanianDeadlift": {
       "name": "Romanian Deadlift"
@@ -177,11 +180,14 @@
     "legPress": {
       "name": "Leg Press"
     },
-    "dumbbellLunges": {
-      "name": "Dumbbell Lunges"
+    "legCurl": {
+      "name": "Leg Curl"
     },
-    "calfRaises": {
-      "name": "Calf Raises"
+    "calfRaise": {
+      "name": "Calf Raise"
+    },
+    "abs": {
+      "name": "Abs"
     }
   },
   "muscles": {
@@ -254,14 +260,6 @@
       "mistakes": ["Letting your elbows flare away from your body", "Using too much weight"],
       "tips": ["Lock your elbows in place throughout the movement"]
     },
-    "deadlift": {
-      "setup": ["Stand with feet hip-width apart, bar over midfoot", "Hinge at hips and knees to grip the bar", "Grip the bar at shoulder width", "Keep your back straight"],
-      "execution": ["Drive through your heels to lift the bar", "Keep the bar close to your body throughout", "Extend your hips and knees fully at the top", "Lower the bar slowly with a straight back"],
-      "breathing": ["Take a deep breath before each rep", "Hold your breath during the lift and exhale at the top"],
-      "rom": ["Lower the bar to touch the floor between reps", "Don't bounce the bar off the floor"],
-      "mistakes": ["Rounding your back during the lift", "Letting the bar drift away from your body", "Not fully extending at the top"],
-      "tips": ["Imagine pushing the floor away with your feet", "Start each rep from a dead stop", "Use a belt for heavy sets"]
-    },
     "barbellRow": {
       "setup": ["Stand with feet shoulder-width apart", "Hinge forward at the hips with a straight back", "Grip the bar with an overhand grip at shoulder width"],
       "execution": ["Pull the bar toward your lower chest", "Squeeze your shoulder blades together at the top", "Lower the bar slowly with arms extended"],
@@ -269,22 +267,6 @@
       "rom": ["Pull the bar until it touches your lower chest", "Fully extend your arms at the bottom"],
       "mistakes": ["Using body momentum to pull the bar", "Rounding your back"],
       "tips": ["Maintain a constant body angle", "Focus on pulling with your back muscles"]
-    },
-    "pullUp": {
-      "setup": ["Grip the bar with a wide overhand grip", "Hang with arms fully extended"],
-      "execution": ["Pull your body up until your chin clears the bar", "Lower yourself slowly until arms are fully extended", "Pause briefly at the bottom"],
-      "breathing": ["Exhale as you pull up", "Inhale as you lower"],
-      "rom": ["Lower until arms are fully extended", "Pull up until your chin clears the bar"],
-      "mistakes": ["Swinging your body during the movement", "Not achieving full arm extension"],
-      "tips": ["Think about pulling the bar down rather than lifting yourself", "Keep your core engaged throughout"]
-    },
-    "dumbbellCurl": {
-      "setup": ["Stand with feet shoulder-width apart", "Hold a dumbbell in each hand with arms extended"],
-      "execution": ["Curl the dumbbells toward your shoulders", "Pause briefly at the top and squeeze", "Lower the dumbbells slowly back down"],
-      "breathing": ["Exhale as you curl up", "Inhale as you lower"],
-      "rom": ["Fully extend arms at the bottom", "Curl until dumbbells reach shoulder level"],
-      "mistakes": ["Using body momentum to lift", "Not fully extending arms at the bottom"],
-      "tips": ["Keep your elbows pinned to your sides throughout"]
     },
     "barbellSquat": {
       "setup": ["Position the bar on your traps behind your neck", "Grip the bar at a comfortable width", "Stand with feet shoulder-width apart, toes slightly out", "Engage your core and keep your back tight"],
@@ -310,14 +292,6 @@
       "mistakes": ["Placing feet too low on the platform", "Locking your knees completely"],
       "tips": ["Keep your lower back pressed against the seat"]
     },
-    "dumbbellLunges": {
-      "setup": ["Stand with feet together holding a dumbbell in each hand", "Keep your torso upright"],
-      "execution": ["Step forward with your right leg", "Bend both knees to a 90-degree angle", "Push through the heel to return to the starting position"],
-      "breathing": ["Inhale as you lower", "Exhale as you push back up"],
-      "rom": ["Lower until your back knee is close to the ground", "Keep your front knee behind your toes"],
-      "mistakes": ["Front knee extending past your toes", "Leaning your torso forward"],
-      "tips": ["Take a shorter step for better control"]
-    },
     "calfRaises": {
       "setup": ["Stand on a calf raise machine or step edge", "Place the balls of your feet on the edge"],
       "execution": ["Raise your heels as high as possible", "Pause briefly at the top", "Lower your heels slowly back down"],
@@ -325,6 +299,54 @@
       "rom": ["Raise your heels to maximum height", "Lower your heels down for a full stretch"],
       "mistakes": ["Moving too quickly", "Not using the full range of motion"],
       "tips": ["Pause for a second at the top for maximum contraction"]
+    },
+    "latPulldown": {
+      "setup": ["Set the cable to the highest position", "Grip the bar with a wide overhand grip"],
+      "execution": ["Pull the bar down to your upper chest", "Squeeze your shoulder blades together", "Slowly return the bar with arms extended"],
+      "breathing": ["Exhale as you pull down", "Inhale as you return"],
+      "rom": ["Pull the bar to your upper chest", "Fully extend your arms at the top"],
+      "mistakes": ["Using body momentum to pull", "Pulling the bar behind your neck"],
+      "tips": ["Think about pulling the bar down, not toward you"]
+    },
+    "rearDeltFly": {
+      "setup": ["Stand with feet shoulder-width apart", "Hinge forward with a straight back holding dumbbells"],
+      "execution": ["Raise the dumbbells out to your sides", "Squeeze your shoulder blades at the top", "Lower the dumbbells slowly back down"],
+      "breathing": ["Exhale as you raise", "Inhale as you lower"],
+      "rom": ["Raise to shoulder height", "Lower until arms are extended"],
+      "mistakes": ["Using your back muscles instead of shoulders", "Raising too quickly"],
+      "tips": ["Use light weights and focus on the squeeze"]
+    },
+    "barbellCurl": {
+      "setup": ["Stand with feet shoulder-width apart", "Grip the bar with an underhand grip at shoulder width"],
+      "execution": ["Curl the bar toward your shoulders", "Pause briefly at the top", "Lower the bar slowly with arms extended"],
+      "breathing": ["Exhale as you curl up", "Inhale as you lower"],
+      "rom": ["Fully extend arms at the bottom", "Curl until the bar reaches shoulder level"],
+      "mistakes": ["Using body momentum to lift", "Lowering too quickly"],
+      "tips": ["Keep your elbows pinned to your sides throughout"]
+    },
+    "hammerCurl": {
+      "setup": ["Stand with feet shoulder-width apart", "Hold a dumbbell in each hand at your sides"],
+      "execution": ["Curl the dumbbells toward your shoulders keeping palms facing each other", "Pause briefly at the top", "Lower the dumbbells slowly back down"],
+      "breathing": ["Exhale as you curl up", "Inhale as you lower"],
+      "rom": ["Fully extend arms at the bottom", "Curl until dumbbells reach shoulder level"],
+      "mistakes": ["Using body momentum", "Rotating your wrists"],
+      "tips": ["Keep your elbows fixed in place"]
+    },
+    "legCurl": {
+      "setup": ["Sit in the leg curl machine", "Place your heels under the padded lever"],
+      "execution": ["Curl the lever toward your glutes", "Pause briefly at the top", "Lower slowly back to start"],
+      "breathing": ["Exhale as you curl", "Inhale as you lower"],
+      "rom": ["Curl to full range of motion", "Lower until legs are fully extended"],
+      "mistakes": ["Moving too quickly", "Using your lower back"],
+      "tips": ["Keep your hips pressed against the pad"]
+    },
+    "abs": {
+      "setup": ["Lie flat on a bench", "Hold the edge above your head"],
+      "execution": ["Raise your legs up until vertical", "Pause briefly at the top", "Lower your legs slowly without touching the bench"],
+      "breathing": ["Exhale as you raise", "Inhale as you lower"],
+      "rom": ["Raise your legs to vertical", "Lower without touching the bench"],
+      "mistakes": ["Using momentum", "Arching your lower back"],
+      "tips": ["Focus on engaging your core throughout"]
     }
   },
   "errors": {

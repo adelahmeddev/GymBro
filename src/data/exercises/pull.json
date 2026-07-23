@@ -1,25 +1,25 @@
 [
   {
-    "id": "deadlift",
-    "nameKey": "exercises.deadlift.name",
-    "gifPath": "/exercises/deadlift.gif",
-    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-deadlift.mp4",
-    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-deadlift.jpg",
+    "id": "lat-pulldown",
+    "nameKey": "exercises.latPulldown.name",
+    "gifPath": "/exercises/barbell-row.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/cable-pulldown.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/cable-pulldown.jpg",
     "primaryMuscleKey": "muscles.back",
-    "secondaryMusclesKey": ["muscles.hamstrings", "muscles.glutes", "muscles.core"],
-    "difficulty": "advanced",
-    "equipment": ["equipment.barbell"],
+    "secondaryMusclesKey": ["muscles.biceps"],
+    "difficulty": "beginner",
+    "equipment": ["equipment.cable", "equipment.vbar"],
     "sets": 3,
-    "reps": "5",
+    "reps": "10-12",
     "restTime": "120s",
     "technique": {
-      "setup": ["technique.deadlift.setup.0","technique.deadlift.setup.1","technique.deadlift.setup.2","technique.deadlift.setup.3"],
-      "execution": ["technique.deadlift.execution.0","technique.deadlift.execution.1","technique.deadlift.execution.2","technique.deadlift.execution.3"],
-      "breathing": ["technique.deadlift.breathing.0","technique.deadlift.breathing.1"],
-      "rangeOfMotion": ["technique.deadlift.rom.0","technique.deadlift.rom.1"]
+      "setup": ["technique.latPulldown.setup.0", "technique.latPulldown.setup.1"],
+      "execution": ["technique.latPulldown.execution.0", "technique.latPulldown.execution.1", "technique.latPulldown.execution.2"],
+      "breathing": ["technique.latPulldown.breathing.0", "technique.latPulldown.breathing.1"],
+      "rangeOfMotion": ["technique.latPulldown.rom.0", "technique.latPulldown.rom.1"]
     },
-    "commonMistakes": ["technique.deadlift.mistakes.0","technique.deadlift.mistakes.1","technique.deadlift.mistakes.2"],
-    "coachTips": ["technique.deadlift.tips.0","technique.deadlift.tips.1","technique.deadlift.tips.2"]
+    "commonMistakes": ["technique.latPulldown.mistakes.0", "technique.latPulldown.mistakes.1"],
+    "coachTips": ["technique.latPulldown.tips.0", "technique.latPulldown.tips.1"]
   },
   {
     "id": "barbell-row",
@@ -44,47 +44,69 @@
     "coachTips": ["technique.barbellRow.tips.0","technique.barbellRow.tips.1"]
   },
   {
-    "id": "pull-up",
-    "nameKey": "exercises.pullUp.name",
-    "gifPath": "/exercises/pull-up.gif",
-    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/pull-up-wide-front-grip.mp4",
-    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/pull-up-wide-front-grip.jpg",
-    "primaryMuscleKey": "muscles.back",
-    "secondaryMusclesKey": ["muscles.biceps", "muscles.core"],
-    "difficulty": "intermediate",
-    "equipment": ["equipment.pullUpBar"],
-    "sets": 3,
-    "reps": "8-12",
-    "restTime": "120s",
-    "technique": {
-      "setup": ["technique.pullUp.setup.0","technique.pullUp.setup.1"],
-      "execution": ["technique.pullUp.execution.0","technique.pullUp.execution.1","technique.pullUp.execution.2"],
-      "breathing": ["technique.pullUp.breathing.0","technique.pullUp.breathing.1"],
-      "rangeOfMotion": ["technique.pullUp.rom.0","technique.pullUp.rom.1"]
-    },
-    "commonMistakes": ["technique.pullUp.mistakes.0","technique.pullUp.mistakes.1"],
-    "coachTips": ["technique.pullUp.tips.0","technique.pullUp.tips.1"]
-  },
-  {
-    "id": "dumbbell-curl",
-    "nameKey": "exercises.dumbbellCurl.name",
-    "gifPath": "/exercises/dumbbell-curl.gif",
-    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-biceps-curl.mp4",
-    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-biceps-curl.jpg",
-    "primaryMuscleKey": "muscles.biceps",
-    "secondaryMusclesKey": [],
+    "id": "rear-delt-fly",
+    "nameKey": "exercises.rearDeltFly.name",
+    "gifPath": "/exercises/dumbbell-lateral-raise.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-rear-delt-row.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-rear-delt-row.jpg",
+    "primaryMuscleKey": "muscles.shoulders",
+    "secondaryMusclesKey": ["muscles.back"],
     "difficulty": "beginner",
     "equipment": ["equipment.dumbbells"],
     "sets": 3,
     "reps": "12-15",
     "restTime": "120s",
     "technique": {
-      "setup": ["technique.dumbbellCurl.setup.0","technique.dumbbellCurl.setup.1"],
-      "execution": ["technique.dumbbellCurl.execution.0","technique.dumbbellCurl.execution.1","technique.dumbbellCurl.execution.2"],
-      "breathing": ["technique.dumbbellCurl.breathing.0","technique.dumbbellCurl.breathing.1"],
-      "rangeOfMotion": ["technique.dumbbellCurl.rom.0","technique.dumbbellCurl.rom.1"]
+      "setup": ["technique.rearDeltFly.setup.0", "technique.rearDeltFly.setup.1"],
+      "execution": ["technique.rearDeltFly.execution.0", "technique.rearDeltFly.execution.1", "technique.rearDeltFly.execution.2"],
+      "breathing": ["technique.rearDeltFly.breathing.0", "technique.rearDeltFly.breathing.1"],
+      "rangeOfMotion": ["technique.rearDeltFly.rom.0", "technique.rearDeltFly.rom.1"]
     },
-    "commonMistakes": ["technique.dumbbellCurl.mistakes.0","technique.dumbbellCurl.mistakes.1"],
-    "coachTips": ["technique.dumbbellCurl.tips.0"]
+    "commonMistakes": ["technique.rearDeltFly.mistakes.0", "technique.rearDeltFly.mistakes.1"],
+    "coachTips": ["technique.rearDeltFly.tips.0", "technique.rearDeltFly.tips.1"]
+  },
+  {
+    "id": "barbell-curl",
+    "nameKey": "exercises.barbellCurl.name",
+    "gifPath": "/exercises/dumbbell-curl.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/barbell-curl.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/barbell-curl.jpg",
+    "primaryMuscleKey": "muscles.biceps",
+    "secondaryMusclesKey": [],
+    "difficulty": "beginner",
+    "equipment": ["equipment.barbell"],
+    "sets": 3,
+    "reps": "8-12",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.barbellCurl.setup.0", "technique.barbellCurl.setup.1"],
+      "execution": ["technique.barbellCurl.execution.0", "technique.barbellCurl.execution.1", "technique.barbellCurl.execution.2"],
+      "breathing": ["technique.barbellCurl.breathing.0", "technique.barbellCurl.breathing.1"],
+      "rangeOfMotion": ["technique.barbellCurl.rom.0", "technique.barbellCurl.rom.1"]
+    },
+    "commonMistakes": ["technique.barbellCurl.mistakes.0", "technique.barbellCurl.mistakes.1"],
+    "coachTips": ["technique.barbellCurl.tips.0"]
+  },
+  {
+    "id": "hammer-curl",
+    "nameKey": "exercises.hammerCurl.name",
+    "gifPath": "/exercises/dumbbell-curl.gif",
+    "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/barbell-drag-curl.mp4",
+    "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/barbell-drag-curl.jpg",
+    "primaryMuscleKey": "muscles.biceps",
+    "secondaryMusclesKey": [],
+    "difficulty": "beginner",
+    "equipment": ["equipment.dumbbells"],
+    "sets": 3,
+    "reps": "10-15",
+    "restTime": "120s",
+    "technique": {
+      "setup": ["technique.hammerCurl.setup.0", "technique.hammerCurl.setup.1"],
+      "execution": ["technique.hammerCurl.execution.0", "technique.hammerCurl.execution.1", "technique.hammerCurl.execution.2"],
+      "breathing": ["technique.hammerCurl.breathing.0", "technique.hammerCurl.breathing.1"],
+      "rangeOfMotion": ["technique.hammerCurl.rom.0", "technique.hammerCurl.rom.1"]
+    },
+    "commonMistakes": ["technique.hammerCurl.mistakes.0", "technique.hammerCurl.mistakes.1"],
+    "coachTips": ["technique.hammerCurl.tips.0"]
   }
 ]
