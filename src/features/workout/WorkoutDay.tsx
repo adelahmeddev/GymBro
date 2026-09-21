@@ -12,10 +12,13 @@ import { useWorkoutProgress } from '@/hooks/useWorkout';
 import type { Exercise } from '@/types';
 
 export function WorkoutDay() {
-  const { dayId } = useParams<{ dayId: string }>();
+  const { splitId, dayId } = useParams<{ splitId: string; dayId: string }>();
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const day = getWorkoutDayById(`ppl/${dayId ?? ''}`);
+  // Legacy route /ppl/:dayId provides only dayId (splitId undefined) → default to 'ppl'.
+  // Dynamic route /:splitId/:dayId provides both.
+  const fullDayId = splitId ? `${splitId}/${dayId ?? ''}` : `ppl/${dayId ?? ''}`;
+  const day = getWorkoutDayById(fullDayId);
   const exercises = day ? getExercisesByWorkoutDay(day.id) : [];
   const { progress, toggleExercise, isExerciseCompleted } = useWorkoutProgress(day?.id ?? '');
 

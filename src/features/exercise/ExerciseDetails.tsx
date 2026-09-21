@@ -1,4 +1,4 @@
-import { useParams, useLocation } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { PageContainer } from '@/components/layout/PageContainer';
@@ -6,9 +6,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Card } from '@/components/ui/Card';
 import { getExerciseById } from '@/data';
 import { trackExerciseView } from '@/services/analytics';
-import { WeightLogger } from './WeightLogger';
 import { useEffect } from 'react';
-import { useWorkoutProgress } from '@/hooks/useWorkout';
 import type { Difficulty } from '@/types';
 
 const difficultyVariants: Record<Difficulty, 'success' | 'warning' | 'error'> = {
@@ -19,19 +17,14 @@ const difficultyVariants: Record<Difficulty, 'success' | 'warning' | 'error'> = 
 
 export function ExerciseDetails() {
   const { id } = useParams<{ id: string }>();
-  const location = useLocation();
-  const dayId = (location.state as { dayId?: string })?.dayId;
   const { t } = useTranslation();
   const exercise = getExerciseById(id ?? '');
-  const { toggleExercise } = useWorkoutProgress(dayId ?? '');
 
   useEffect(() => {
     if (exercise) {
       trackExerciseView(exercise.id);
     }
   }, [exercise]);
-
-  const restSeconds = exercise ? parseInt(exercise.restTime.replace(/\D/g, ''), 10) : 120;
 
   if (!exercise) {
     return (
@@ -139,21 +132,6 @@ export function ExerciseDetails() {
             </div>
           </div>
         </Card>
-      </motion.div>
-
-      {/* Weight Logger */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.2 }}
-        className="mb-8"
-      >
-        <WeightLogger
-          exerciseId={exercise.id}
-          sets={exercise.sets}
-          restTime={restSeconds}
-          onExerciseComplete={() => toggleExercise(exercise.id)}
-        />
       </motion.div>
 
       {/* Technique Sections */}

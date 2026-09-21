@@ -1,0 +1,106 @@
+[
+  {
+    "id": "machine-chest-press",
+    "nameKey": "exercises.machineChestPress.name",
+    "gifPath": "/exercises/barbell-bench-press.gif",
+    "primaryMuscleKey": "muscles.chest",
+    "secondaryMusclesKey": ["muscles.shoulders", "muscles.triceps"],
+    "difficulty": "beginner",
+    "equipment": ["equipment.chestPressMachine"],
+    "sets": 3,
+    "reps": "10-12",
+    "restTime": "90s",
+    "technique": {
+      "setup": ["technique.machineChestPress.setup.0", "technique.machineChestPress.setup.1", "technique.machineChestPress.setup.2"],
+      "execution": ["technique.machineChestPress.execution.0", "technique.machineChestPress.execution.1", "technique.machineChestPress.execution.2"],
+      "breathing": ["technique.machineChestPress.breathing.0", "technique.machineChestPress.breathing.1"],
+      "rangeOfMotion": ["technique.machineChestPress.rom.0", "technique.machineChestPress.rom.1"]
+    },
+    "commonMistakes": ["technique.machineChestPress.mistakes.0", "technique.machineChestPress.mistakes.1"],
+    "coachTips": ["technique.machineChestPress.tips.0", "technique.machineChestPress.tips.1"]
+  },
+  {
+    "id": "incline-machine-press",
+    "nameKey": "exercises.inclineMachinePress.name",
+    "gifPath": "/exercises/incline-machine-press.gif",
+    "videoUrl": "/exercises/source/dumbbell-incline-bench-supplied.mp4",
+    "primaryMuscleKey": "muscles.chest",
+    "secondaryMusclesKey": ["muscles.shoulders", "muscles.triceps"],
+    "difficulty": "beginner",
+    "equipment": ["equipment.chestPressMachine"],
+    "sets": 3,
+    "reps": "10-12",
+    "restTime": "90s",
+    "technique": {
+      "setup": ["technique.inclineMachinePress.setup.0", "technique.inclineMachinePress.setup.1"],
+      "execution": ["technique.inclineMachinePress.execution.0", "technique.inclineMachinePress.execution.1", "technique.inclineMachinePress.execution.2"],
+      "breathing": ["technique.inclineMachinePress.breathing.0", "technique.inclineMachinePress.breathing.1"],
+      "rangeOfMotion": ["technique.inclineMachinePress.rom.0", "technique.inclineMachinePress.rom.1"]
+    },
+    "commonMistakes": ["technique.inclineMachinePress.mistakes.0", "technique.inclineMachinePress.mistakes.1"],
+    "coachTips": ["technique.inclineMachinePress.tips.0"]
+  },
+  {
+    "id": "chest-supported-machine-row",
+    "nameKey": "exercises.chestSupportedMachineRow.name",
+    "gifPath": "/exercises/chest-supported-machine-row.gif",
+    "videoUrl": "/exercises/source/chest-supported-machine-row.mp4",
+    "primaryMuscleKey": "muscles.back",
+    "secondaryMusclesKey": ["muscles.biceps"],
+    "difficulty": "beginner",
+    "equipment": ["equipment.rowMachine"],
+    "sets": 3,
+    "reps": "10-12",
+    "restTime": "90s",
+    "technique": {
+      "setup": ["technique.chestSupportedRow.setup.0", "technique.chestSupportedRow.setup.1", "technique.chestSupportedRow.setup.2"],
+      "execution": ["technique.chestSupportedRow.execution.0", "technique.chestSupportedRow.execution.1", "technique.chestSupportedRow.execution.2"],
+      "breathing": ["technique.chestSupportedRow.breathing.0", "technique.chestSupportedRow.breathing.1"],
+      "rangeOfMotion": ["technique.chestSupportedRow.rom.0", "technique.chestSupportedRow.rom.1"]
+    },
+    "commonMistakes": ["technique.chestSupportedRow.mistakes.0", "technique.chestSupportedRow.mistakes.1"],
+    "coachTips": ["technique.chestSupportedRow.tips.0", "technique.chestSupportedRow.tips.1"]
+  },
+  {
+    "id": "pec-deck-fly",
+    "nameKey": "exercises.pecDeckFly.name",
+    "gifPath": "/exercises/pec-deck-fly.gif",
+    "videoUrl": "/exercises/source/machine-pec-fly.mp4",
+    "primaryMuscleKey": "muscles.chest",
+    "secondaryMusclesKey": [],
+    "difficulty": "beginner",
+    "equipment": ["equipment.pecDeck"],
+    "sets": 3,
+    "reps": "12-15",
+    "restTime": "90s",
+    "technique": {
+      "setup": ["technique.pecDeckFly.setup.0", "technique.pecDeckFly.setup.1"],
+      "execution": ["technique.pecDeckFly.execution.0", "technique.pecDeckFly.execution.1", "technique.pecDeckFly.execution.2"],
+      "breathing": ["technique.pecDeckFly.breathing.0", "technique.pecDeckFly.breathing.1"],
+      "rangeOfMotion": ["technique.pecDeckFly.rom.0", "technique.pecDeckFly.rom.1"]
+    },
+    "commonMistakes": ["technique.pecDeckFly.mistakes.0", "technique.pecDeckFly.mistakes.1"],
+    "coachTips": ["technique.pecDeckFly.tips.0"]
+  },
+  {
+    "id": "seated-cable-row",
+    "nameKey": "exercises.seatedCableRow.name",
+    "gifPath": "/exercises/seated-cable-row.gif",
+    "videoUrl": "/exercises/source/seated-cable-row.mp4",
+    "primaryMuscleKey": "muscles.back",
+    "secondaryMusclesKey": ["muscles.biceps"],
+    "difficulty": "beginner",
+    "equipment": ["equipment.cable", "equipment.vbar"],
+    "sets": 3,
+    "reps": "10-12",
+    "restTime": "90s",
+    "technique": {
+      "setup": ["technique.seatedCableRow.setup.0", "technique.seatedCableRow.setup.1", "technique.seatedCableRow.setup.2"],
+      "execution": ["technique.seatedCableRow.execution.0", "technique.seatedCableRow.execution.1", "technique.seatedCableRow.execution.2"],
+      "breathing": ["technique.seatedCableRow.breathing.0", "technique.seatedCableRow.breathing.1"],
+      "rangeOfMotion": ["technique.seatedCableRow.rom.0", "technique.seatedCableRow.rom.1"]
+    },
+    "commonMistakes": ["technique.seatedCableRow.mistakes.0", "technique.seatedCableRow.mistakes.1"],
+    "coachTips": ["technique.seatedCableRow.tips.0", "technique.seatedCableRow.tips.1"]
+  }
+]

@@ -2,7 +2,7 @@
   {
     "id": "lat-pulldown",
     "nameKey": "exercises.latPulldown.name",
-    "gifPath": "/exercises/barbell-row.gif",
+    "gifPath": "/exercises/lat-pulldown.gif",
     "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/cable-pulldown.mp4",
     "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/cable-pulldown.jpg",
     "primaryMuscleKey": "muscles.back",
@@ -46,7 +46,7 @@
   {
     "id": "rear-delt-fly",
     "nameKey": "exercises.rearDeltFly.name",
-    "gifPath": "/exercises/dumbbell-lateral-raise.gif",
+    "gifPath": "/exercises/rear-delt-fly.gif",
     "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-rear-delt-row.mp4",
     "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-rear-delt-row.jpg",
     "primaryMuscleKey": "muscles.shoulders",
@@ -68,7 +68,7 @@
   {
     "id": "barbell-curl",
     "nameKey": "exercises.barbellCurl.name",
-    "gifPath": "/exercises/dumbbell-curl.gif",
+    "gifPath": "/exercises/barbell-curl.gif",
     "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/barbell-curl.mp4",
     "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/barbell-curl.jpg",
     "primaryMuscleKey": "muscles.biceps",
@@ -90,7 +90,7 @@
   {
     "id": "hammer-curl",
     "nameKey": "exercises.hammerCurl.name",
-    "gifPath": "/exercises/dumbbell-curl.gif",
+    "gifPath": "/exercises/hammer-curl.gif",
     "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/barbell-drag-curl.mp4",
     "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/barbell-drag-curl.jpg",
     "primaryMuscleKey": "muscles.biceps",

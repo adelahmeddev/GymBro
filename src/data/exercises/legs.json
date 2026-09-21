@@ -90,7 +90,7 @@
   {
     "id": "calf-raise",
     "nameKey": "exercises.calfRaise.name",
-    "gifPath": "/exercises/calf-raises.gif",
+    "gifPath": "/exercises/calf-raise.gif",
     "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/dumbbell-standing-calf-raise.mp4",
     "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/dumbbell-standing-calf-raise.jpg",
     "primaryMuscleKey": "muscles.calves",
@@ -112,7 +112,7 @@
   {
     "id": "abs",
     "nameKey": "exercises.abs.name",
-    "gifPath": "/exercises/calf-raises.gif",
+    "gifPath": "/exercises/abs.gif",
     "videoUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-videos/male/bench-leg-raise.mp4",
     "posterUrl": "https://pub-585d42eb1aa64a67aedf483ec328d3fe.r2.dev/exercise-posters/male/bench-leg-raise.jpg",
     "primaryMuscleKey": "muscles.core",

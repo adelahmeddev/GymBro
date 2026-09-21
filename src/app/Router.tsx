@@ -14,7 +14,9 @@ export function Router() {
         <Route path="/" element={<Landing />} />
         <Route path="/home" element={<Home />} />
         <Route path="/splits" element={<Splits />} />
+        <Route path="/splits/:splitId" element={<Splits />} />
         <Route path="/ppl/:dayId" element={<WorkoutDay />} />
+        <Route path="/:splitId/:dayId" element={<WorkoutDay />} />
         <Route path="/exercise/:id" element={<ExerciseDetails />} />
         <Route path="/workout-complete" element={<WorkoutComplete />} />
         <Route path="/dashboard" element={<Dashboard />} />

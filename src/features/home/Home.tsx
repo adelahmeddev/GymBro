@@ -59,7 +59,7 @@ export function Home() {
               <Card
                 key={split.id}
                 hoverable
-                onClick={isEnabled ? () => navigate('/splits') : undefined}
+                onClick={isEnabled ? () => navigate(`/splits/${split.id}`) : undefined}
                 className={!isEnabled ? 'opacity-50' : ''}
               >
                 <div className="flex items-center gap-4">

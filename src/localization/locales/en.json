@@ -60,6 +60,18 @@
       "name": "Legs Day",
       "description": "Full leg workout"
     },
+    "chestAndBack": {
+      "name": "Chest & Back Day",
+      "description": "Alternating machine push and pull — chest and back"
+    },
+    "shouldersAndArms": {
+      "name": "Shoulders & Arms Day",
+      "description": "Shoulders, biceps and triceps — complete arms"
+    },
+    "arnoldLegs": {
+      "name": "Legs Day",
+      "description": "Full leg workout, Arnold style"
+    },
     "details": {
       "estimatedDuration": "Estimated Duration",
       "exercises": "Exercises",
@@ -89,15 +101,7 @@
     "notComplete": "Not Done",
     "beginner": "Beginner",
     "intermediate": "Intermediate",
-    "advanced": "Advanced",
-    "weightLogger": "Weight Logger",
-    "weight": "Weight",
-    "repsCompleted": "Reps",
-    "set": "Set",
-    "logSet": "Log",
-    "updateSet": "Update",
-    "allSetsLogged": "All sets completed ✓",
-    "saveLogs": "Save"
+    "advanced": "Advanced"
   },
   "workout": {
     "progress": "Workout Progress",
@@ -188,6 +192,21 @@
     },
     "abs": {
       "name": "Abs"
+    },
+    "machineChestPress": {
+      "name": "Machine Chest Press"
+    },
+    "inclineMachinePress": {
+      "name": "Incline Machine Press"
+    },
+    "chestSupportedMachineRow": {
+      "name": "Chest-Supported Machine Row"
+    },
+    "pecDeckFly": {
+      "name": "Pec Deck Fly"
+    },
+    "seatedCableRow": {
+      "name": "Seated Cable Row"
     }
   },
   "muscles": {
@@ -217,9 +236,52 @@
     "pullUpBar": "Pull Up Bar",
     "squatRack": "Squat Rack",
     "legPressMachine": "Leg Press Machine",
-    "calfRaiseMachine": "Calf Raise Machine"
+    "calfRaiseMachine": "Calf Raise Machine",
+    "chestPressMachine": "Chest Press Machine",
+    "rowMachine": "Row Machine",
+    "pecDeck": "Pec Deck"
   },
   "technique": {
+    "machineChestPress": {
+      "setup": ["Adjust the seat so the handles sit at mid-chest level", "Press your back and shoulders into the pad with feet flat on the floor", "Grip the handles comfortably with elbows back"],
+      "execution": ["Drive the handles forward until your arms are extended without locking your elbows", "Squeeze your chest for a second at full extension", "Return slowly over two seconds until you feel a stretch in your chest"],
+      "breathing": ["Inhale as you bring the handles back", "Exhale forcefully as you press forward"],
+      "rom": ["Lower until your elbows pass slightly behind your torso", "Fully extend your arms forward without locking your elbows"],
+      "mistakes": ["Shrugging your shoulders up toward your ears", "Letting your back leave the pad as you press"],
+      "tips": ["Squeeze your chest at lockout on every rep", "Lower over two to three seconds to feel the muscle work"]
+    },
+    "inclineMachinePress": {
+      "setup": ["Set the seat to the inclined position", "Keep your back on the pad and grip the handles at upper-chest level"],
+      "execution": ["Press the handles up and forward until your arms are extended", "Squeeze your upper chest for a second at the top", "Lower slowly with control to the starting position"],
+      "breathing": ["Exhale as you press up", "Inhale as you lower"],
+      "rom": ["Lower until you feel a stretch in your upper chest", "Fully extend your arms at the top"],
+      "mistakes": ["Lifting your back off the pad as you press", "Dropping the weight fast without control"],
+      "tips": ["Focus on your upper chest and squeeze it on every rep"]
+    },
+    "chestSupportedRow": {
+      "setup": ["Adjust the front pad so your chest rests firmly against it", "Grab the handles with arms extended forward", "Plant your feet on the foot supports"],
+      "execution": ["Pull the handles toward your torso while squeezing your shoulder blades together", "Pause for a second and squeeze your back", "Return slowly over two seconds to full arm extension"],
+      "breathing": ["Exhale as you pull the handles in", "Inhale as you return forward"],
+      "rom": ["Pull until the handles come close to your body", "Fully extend your arms forward"],
+      "mistakes": ["Rocking your body to heave heavy weight", "Letting your chest leave the support pad"],
+      "tips": ["Keep your chest glued to the pad throughout", "Lower over two to three seconds for maximum benefit"]
+    },
+    "pecDeckFly": {
+      "setup": ["Adjust the seat so your arms sit at shoulder height", "Keep your back on the pad and grip the handles with slightly bent elbows"],
+      "execution": ["Bring your arms together in front of your chest in a smooth arc", "Squeeze your chest for a second at full contraction", "Open slowly until you feel a stretch in your chest"],
+      "breathing": ["Exhale as you close your arms", "Inhale as you open your arms"],
+      "rom": ["Open until you feel a stretch without shoulder pain", "Bring the handles together in front of your chest"],
+      "mistakes": ["Straightening your elbows fully and loading the joint", "Using momentum and rocking your torso"],
+      "tips": ["Imagine hugging a big tree as you close"]
+    },
+    "seatedCableRow": {
+      "setup": ["Sit down and brace your feet on the platform with knees slightly bent", "Grab the handle with a straight back and lifted chest", "Lean slightly forward with arms extended"],
+      "execution": ["Pull the handle toward your belly while squeezing your shoulder blades together", "Squeeze your back for a second at full contraction", "Return slowly over two seconds with arms extending"],
+      "breathing": ["Exhale as you pull the handle in", "Inhale as you return forward"],
+      "rom": ["Pull until the handle reaches your belly", "Fully extend your arms forward"],
+      "mistakes": ["Leaning too far back and pulling with your lower back", "Shrugging your shoulders up toward your ears"],
+      "tips": ["Keep your back still and straight throughout", "Lower the weight over two to three seconds"]
+    },
     "barbellBenchPress": {
       "setup": ["Lie on the bench with feet flat on the floor", "Grip the bar at shoulder width", "Fully extend your arms locking the bar", "Squeeze your shoulder blades together"],
       "execution": ["Lower the bar slowly toward mid-chest", "Keep elbows at a 45-degree angle to your body", "Drive the bar up powerfully until arms are extended", "Keep your glutes on the bench throughout"],

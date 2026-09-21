@@ -1,19 +1,32 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { PageContainer } from '@/components/layout/PageContainer';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { getWorkoutDaysBySplit } from '@/data';
+import { getSplitById, getWorkoutDaysBySplit } from '@/data';
 import type { WorkoutDay } from '@/types';
 
 export function Splits() {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const days = getWorkoutDaysBySplit('ppl');
+  const { splitId } = useParams<{ splitId: string }>();
+  const location = useLocation();
+  const stateSplitId = (location.state as { splitId?: string } | null)?.splitId;
+  const selectedSplitId = splitId ?? stateSplitId ?? 'ppl';
+  const split = getSplitById(selectedSplitId);
+  const days = getWorkoutDaysBySplit(selectedSplitId).slice().sort((a, b) => a.dayOrder - b.dayOrder);
+
+  if (!split) {
+    return (
+      <PageContainer title={t('errors.notFound')} showBack>
+        <p className="text-text-secondary">{t('common.error')}</p>
+      </PageContainer>
+    );
+  }
 
   return (
-    <PageContainer title={t('splits.ppl.name')} showBack>
+    <PageContainer title={t(split.nameKey)} showBack>
       <p className="text-text-secondary mb-6">
         {t('splits.selectSplit')}
       </p>

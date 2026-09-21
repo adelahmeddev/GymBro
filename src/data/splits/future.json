@@ -1,13 +1,5 @@
 [
   {
-    "id": "arnold",
-    "nameKey": "splits.arnold.name",
-    "descriptionKey": "splits.arnold.description",
-    "enabled": false,
-    "days": [],
-    "icon": "🏋️"
-  },
-  {
     "id": "upper-lower",
     "nameKey": "splits.upperLower.name",
     "descriptionKey": "splits.upperLower.description",

@@ -1,27 +1,29 @@
 import pplData from './splits/ppl.json';
+import arnoldData from './splits/arnold.json';
 import futureSplits from './splits/future.json';
 import pushExercises from './exercises/push.json';
 import pullExercises from './exercises/pull.json';
 import legsExercises from './exercises/legs.json';
+import machinesExercises from './exercises/machines.json';
 import { workoutDays } from './workoutDays';
 import type { Split, Exercise, WorkoutDay } from '@/types';
 
 const exerciseMap = new Map<string, Exercise>();
-for (const ex of [...pushExercises, ...pullExercises, ...legsExercises]) {
+for (const ex of [...pushExercises, ...pullExercises, ...legsExercises, ...machinesExercises]) {
   exerciseMap.set(ex.id, ex as Exercise);
 }
 
 export function getEnabledSplits(): Split[] {
-  const main = pplData.enabled ? [pplData as Split] : [];
-  return main;
+  return [pplData as Split, arnoldData as Split].filter((s) => s.enabled);
 }
 
 export function getAllSplits(): Split[] {
-  return [pplData as Split, ...futureSplits as Split[]];
+  return [pplData as Split, arnoldData as Split, ...futureSplits as Split[]];
 }
 
 export function getSplitById(id: string): Split | undefined {
   if (pplData.id === id) return pplData as Split;
+  if (arnoldData.id === id) return arnoldData as Split;
   return futureSplits.find((s) => s.id === id) as Split | undefined;
 }
 
@@ -47,4 +49,4 @@ export function getExercisesByWorkoutDay(dayId: string): Exercise[] {
   return getExercisesByIds(day.exerciseIds);
 }
 
-export { pushExercises, pullExercises, legsExercises, pplData, futureSplits, workoutDays };
+export { pushExercises, pullExercises, legsExercises, machinesExercises, pplData, arnoldData, futureSplits, workoutDays };

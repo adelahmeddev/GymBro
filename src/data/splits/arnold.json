@@ -1,0 +1,8 @@
+{
+  "id": "arnold",
+  "nameKey": "splits.arnold.name",
+  "descriptionKey": "splits.arnold.description",
+  "enabled": true,
+  "days": ["arnold/chest-and-back", "arnold/shoulders-and-arms", "arnold/legs"],
+  "icon": "⚔️"
+}

@@ -50,18 +50,6 @@ export interface TechniqueSection {
   rangeOfMotion: string[];
 }
 
-export interface WeightLog {
-  exerciseId: string;
-  date: string;
-  sets: WeightSet[];
-}
-
-export interface WeightSet {
-  setNumber: number;
-  weight: number;
-  reps: number;
-}
-
 export interface WorkoutProgress {
   dayId: string;
   date: string;
